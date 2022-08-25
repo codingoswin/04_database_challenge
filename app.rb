@@ -6,4 +6,4 @@ DatabaseConnection.connect("recipes_directory_test")
 
 
 recipe_repository = RecipeRepository.new
-recipe_repository.all.each { |recipe| p recipe }
+recipe_repository.all.each { |recipe| p recipe } 

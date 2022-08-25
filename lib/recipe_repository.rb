@@ -1,4 +1,4 @@
-require 'recipe'
+require_relative 'recipe'
 
 class RecipeRepository
     def all
